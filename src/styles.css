@@ -13,16 +13,76 @@ header p {
   font-size: 1.5em;
 }
 
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game .game-banner {
+  max-width: 75%;
+}
+
+.game h2 {
+  font-size: 3em;
+}
+
+.game video {
+  max-width: 75%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.game-instructions {
+  display: flex;
+  align-items: center;
+}
+
+.game img {
+  max-width: 75px;
+}
+
 .word-bird-icon {
   width: 50px;
   height: 50px;
 }
 
-main {
-  display: flex;
-  justify-content: center;
+.game p {
+  font-size: 1.5em;
 }
 
-main img {
+.game span {
+  font-size: 1.5em;
+  transition: font-size 0.5s ease;
+}
+
+.game span:hover {
+  font-size: 1.75em;
+}
+
+.teaching-materials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teaching-materials video {
   max-width: 75%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.teaching-materials h2 {
+  font-size: 3em;
+}
+
+.teaching-material-instructions p {
+  font-size: 1.5em;
+}
+
+.teaching-material-instructions span {
+  font-size: 1.5em;
+  transition: font-size 0.5s ease;
+}
+
+.teaching-material-instructions span:hover {
+  font-size: 1.75em;
 }
