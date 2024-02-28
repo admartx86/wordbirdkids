@@ -39,8 +39,8 @@ header p {
 }
 
 .game .game-banner img {
-  aspect-ratio: 1/2;
-  display: block;
+  height: auto;
+  max-width: 100%;
 }
 
 .game .game-instructions img {
