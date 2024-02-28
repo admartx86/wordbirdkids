@@ -31,27 +31,22 @@ header p {
 .game-instructions {
   display: flex;
   align-items: center;
+  background-color: gray;
 }
 
 .game .emojis img {
-  aspect-ratio: 1/1;
-  max-width: 75px;
   height: auto;
-  display: block;
+  max-width: 100%;
 }
 
 .game .game-banner img {
   aspect-ratio: 1/2;
-  max-width: 75px;
-  height: auto;
   display: block;
 }
 
 .game .game-instructions img {
-  aspect-ratio: 1/1;
-  max-width: 75px;
   height: auto;
-  display: block;
+  max-width: 100%;
 }
 
 .word-bird-icon {
