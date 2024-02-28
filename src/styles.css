@@ -19,10 +19,6 @@ header p {
   align-items: center;
 }
 
-.game .game-banner {
-  max-width: 75%;
-}
-
 .game h2 {
   font-size: 3em;
 }
@@ -37,7 +33,21 @@ header p {
   align-items: center;
 }
 
-.game img {
+.game .emojis img {
+  aspect-ratio: 1/1;
+  max-width: 75px;
+  height: auto;
+  display: block;
+}
+
+.game .game-banner img {
+  aspect-ratio: 1/2;
+  max-width: 75px;
+  height: auto;
+  display: block;
+}
+
+.game .game-instructions img {
   aspect-ratio: 1/1;
   max-width: 75px;
   height: auto;
