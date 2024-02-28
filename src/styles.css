@@ -34,18 +34,21 @@ header p {
 }
 
 .game .emojis img {
-  height: auto;
   max-width: 100%;
+  height: auto;
+  aspect-ratio: attr(width) / attr(height);
 }
 
 .game .game-banner img {
-  height: auto;
   max-width: 100%;
+  height: auto;
+  aspect-ratio: attr(width) / attr(height);
 }
 
 .game .game-instructions img {
-  height: auto;
   max-width: 100%;
+  height: auto;
+  aspect-ratio: attr(width) / attr(height);
 }
 
 .word-bird-icon {
